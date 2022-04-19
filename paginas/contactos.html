@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/5aadf441d1.js" crossorigin="anonymous"></script>
+    <title>Easy sell's</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="../assets/imgenes/logo.png" class="logo" alt="main-logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../paginas/contactos.html">Contactos</a></li>
+                    <li><a href="../paginas/acerca-de-nosotros.html">Acerca de nosotros</a></li>
+                    <li><a href="../paginas/vender.html">Vender</a></li>
+                    <li><a href="../paginas/tienda.html">Tienda</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <h1 class="titulo">Easy Sell's</h1>
+        </header>
+        <div class="flex-container">
+            <p class="textos">Ingrese su informacion de contacto:</p>
+            <div class="formulario">
+                <form action="formulario" method="get">
+                    <label for="nombre">Ingrese su nombre:</label>
+                    <input type="text" placeholder="Escriba aqui..." name="nombre"><br><br>
+                    <label for="apellido" >Ingrese su apellido:</label>
+                    <input type="text" placeholder="Escriba aqui..." name="apellido"><br><br>
+                    <label for="fecha-de-nacimiento">Ingrese su fecha de nacimiento:</label>
+                    <input type="date" placeholder="Escriba aqui..." name="fecha-de-nacimiento"><br><br>
+                    <label for="mail-de-contacto">Ingrese su mail de contacto:</label>
+                   <input type="email" placeholder="Escriba aqui..." name="mail-de-contacto">
+               </form>
+           </div>
+           <p class="textos">Ingrese sus preferencias:</p>
+            <div class="articulos">
+                <form action="formulario" method="get">
+                    <label for="nombre">Tecnologia y electronica</label>
+                    <input type="text" placeholder="Ej: samsung galaxy" name="nombre"><br><br>
+                    <label for="apellido" >Inmuebles:</label>
+                    <input type="text" placeholder="Ej: casa" name="apellido"><br><br>
+                    <label for="fecha-de-nacimiento">Productos:</label>
+                    <input type="text" placeholder="Ej: escobas" name="fecha-de-nacimiento"><br><br>
+                    <label for="mail-de-contacto">Vehiculos:</label>
+                   <input type="text" placeholder="Ej: bmw" name="mail-de-contacto"><br><br>
+                   <label for="mail-de-contacto">Otro:</label>
+                   <input type="text" placeholder="Escriba aqui..." name="mail-de-contacto">
+               </form>
+            </div>
+            <p class="textos">Ingrese como nos conociste:</p>
+           <div class="contenido">
+               <form action="formulario" method="get">
+                    <br>
+                    <label for="red">Facebook</label>
+                    <input type="checkbox" name="caja">
+                    <br><br>
+                    <label for="red">Instagram</label>
+                    <input type="checkbox" name="caja">
+                    <br><br>
+                    <label for="red">Twitter</label>
+                    <input type="checkbox" name="caja">
+                    <br><br>
+                    <label for="red">Youtube</label>
+                    <input type="checkbox" name="caja">
+                    <br><br>
+                    <label for="red">Otro</label>
+                    <input type="text" name="texto">
+                    <br><br>
+                    <button class="boton">Enviar formulario</button><button class="boton">Borrar formulario</button>
+               </form>
+           </div>
+        </div>
+    </div>
+    <footer class="pie-de-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../assets/imgenes/logo.png" alt="main-logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos una empresa que se dedica a la compra de productos que ya no utilices, te lo compramos a el
+                    mejor precio.</p>
+                <p>Estamos hace muchisimo tiempo en el mercado y a la vez nos dedicaos a utilizar nuestra red como
+                    compra y venta de articulos de todo tipo.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://instagram.com" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter"></a>
+                    <a href="https://youtube.com" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <!--::::pie de pagina::::::-->
+        <div class="grupo-2">
+            <small>&COPY; 2022 <b>Easy Sell's</b> - Todos los derechos reservados.</small>
+        </div>
+
+    </footer>
+</body>
+
+</html>
