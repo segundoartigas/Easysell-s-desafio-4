@@ -101,13 +101,16 @@ h1 {
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    transition: all 0.25s;
+    transition-property: all;
+    transition-duration: 1s;
     border: solid 3px orange;
+    
 }
 
 .contenedor .tarjeta:hover {
     transform: 330px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0, 2);
+    background: rgb(121, 107, 89);
 }
 
 .contenedor .tarjeta img {
@@ -128,7 +131,7 @@ h1 {
 .contenedor .tarjeta a {
     font-weight: 500;
     text-decoration: none;
-    color: #af3416;
+    color: #9b0f16;
 }
 
 .pie-de-pagina {
@@ -225,8 +228,18 @@ h1 {
     border: 5px solid green;
     background: #0a1a2a;
     color: skyblue;
+    animation-name: desplazarse;
+    animation-duration: 5s;
 }
-
+@keyframes desplazarse {
+    from {
+        position: relative;
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
 .formulario {
     padding: 20px;
     align-self: center;
@@ -272,6 +285,8 @@ h1 {
     align-content: center;
     justify-items: center;
 }
-   
+
+
+
 
 
