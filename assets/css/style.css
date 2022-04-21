@@ -103,8 +103,7 @@ h1 {
     text-align: center;
     transition-property: all;
     transition-duration: 1s;
-    border: solid 3px orange;
-    
+    border: solid 3px rgb(245, 162, 7);
 }
 
 .contenedor .tarjeta:hover {
