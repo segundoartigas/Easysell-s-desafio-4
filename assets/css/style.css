@@ -89,11 +89,10 @@ body{
     grid-area: main;
 }
 .contenedor{
-    display: grid;
-    justify-items: start;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: rgba(211, 97, 56, 0.267);
 }
 
@@ -114,6 +113,7 @@ body{
     transform: 330px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0, 2);
     background: rgb(121, 107, 89);
+    cursor: pointer;
 }
 
 .contenedor .tarjeta img {
