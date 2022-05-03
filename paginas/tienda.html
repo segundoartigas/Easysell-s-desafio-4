@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
             <a href="#" class="logo">
                 <img src="../assets/imgenes/logo.png">
@@ -25,8 +25,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="../paginas/contactos.html">Contactos</a>
               </li>
@@ -43,41 +44,73 @@
           </div>
         </div>
       </nav>
+    
         </header>
         <main>
             <article>
                 <div class="row col-xs-12 col-md-12">
                     <h1>Tienda</h1>
                 </div>
+                <div class="row">
                 <div class="row col-xs-12 col-md-12">
                     <h2 class="contenedor-tienda text-center">Celulares</h2>
                 </div>
-                <div class="row"> 
-                    <div class="col-xs-12 col-md-2"><img class="img-fluid" src="../assets/imgenes/samsung.jpg" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Samsung galaxy con 128 gb de ram, con cargador, caja y auriculares + funda de regalo.</p>
-                    <div class="col-xs-12 col-md-2"><img class="img-fluid" src="../assets/imgenes/iphonee.jpg" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Iphone 11 pro con 128 gb de ram, con cargador, caja y auriculares + funda de regalo.</p>
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/samsung.jpg" alt="imagen" width="200" height="200"></div>
+                    
+                    <div class="col-xs-12 col-md-6">
+                        <p>Samsung galaxy con 128 gb de ram, con cargador, caja y auriculares + funda de regalo.</p>
+                        <button class="button">Comprar</button>
+                    </div>
+                </div>            
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/iphonee.jpg" alt="imagen" width="200" height="200"></div>
+                    
+                    <div class="col-xs-12 col-md-6">
+                        <p>Iphone 11 pro con 128 gb de ram, con cargador, caja y auriculares + funda de regalo.</p>
+                        <button class="button">Comprar</button>
+                    </div>
                 </div>
-                
+                </div>
+                <div class="row">
                 <div class="row col-xs-12 col-md-12">
                     <h3 class="contenedor-tienda text-center">Electrodomesticos</h3>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-2"><img class="img-fluid" src="../assets/imgenes/ventilador.png" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Ventilador con potencia angular ideal para todo tipo de enchufe, con 3 niveles distinos.</p>
-                    <div class="col-xs-12 col-md-2"><img class="img-fluid" src="../assets/imgenes/horno.jpg" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Horno con potencia de 400 grados, con 4 hornallas de encendido, y gas automatico</p>                
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/ventilador.png" alt="imagen" width="200" height="200"></div>
+                   
+                    <div class="col-xs-12 col-md-6">
+                        <p>Ventilador con potencia angular ideal para todo tipo de enchufe, con 3 niveles distinos.</p>
+                        <button class="button">Comprar</button>
+                    </div>
                 </div>
-                
-                <br>
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/horno.jpg" alt="imagen" width="200" height="200"></div>
+                    
+                    <div class="col-xs-12 col-md-6">
+                        <p>Horno con potencia de 400 grados, con 4 hornallas de encendido, y gas automatico</p>
+                        <button class="button">Comprar</button>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
                 <div class="row col-xs-12 col-md-12">
                     <h4 class="contenedor-tienda text-center">Vehiculos</h4>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-2"><img src="../assets/imgenes/audi.jpg" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Audi a4 con velocidad maxima de 300km/hora, con caja de sexta y potencia power.</p>
-                    <div class="col-xs-12 col-md-2"><img src="../assets/imgenes/hilux.jpg" alt="imagen" width="200" height="200"></div>
-                    <p class="col-xs-12 col-md-4">Hilux roja con velocidad maxima de 220km/hora, con caja de sexta y caja con tapa.</p>
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/audi.jpg" alt="imagen" width="250" height="250"></div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>Audi a4 con velocidad maxima de 300km/hora, con caja de sexta y potencia power.</p>
+                        <button class="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="row-tarjeta col-xs-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-xs-12 col-md-6"><img class="img-fluid d-flex justify-content-start" src="../assets/imgenes/hilux.jpg" alt="imagen" width="250" height="250"></div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>Hilux roja con velocidad maxima de 220km/hora, con caja de sexta y caja con tapa.</p>
+                        <button class="button">Comprar</button>
+                    </div>
+                </div>
                 </div>
             </article>
         </main>
@@ -117,4 +150,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> -->
