@@ -255,7 +255,6 @@ h1 {
         padding: 35px 0px;
     }
 }
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -276,6 +275,10 @@ h1 {
     to {
         left: 0%;
     }
+}
+.descarga{
+    animation-name: desplazarse;
+    animation-duration: 3s;
 }
 
 
@@ -306,7 +309,28 @@ h1 {
 .textos {
     text-decoration: underline;
 }
-
+.button {
+    margin: 5px;
+    border-radius: 5px;
+    border: solid;
+    color: black;
+}
+.button:hover{
+    background-color: blue;
+}
+.row-tarjeta{
+    width: 40%;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 5px;
+    color: #000000;
+    padding: 15px;
+    border: solid 3px blue;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.row-tarjeta:hover{
+    background: rgb(121, 107, 89);
+}
 
 .boton {
     margin: 5px;
@@ -346,6 +370,7 @@ h1 {
         flex-direction: column;
     }  
 
+    
 
 
 /* .texto {
