@@ -1,0 +1,59 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 200px 20px 200px;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    background: $colorSecundarioFormuario;
+    color: skyblue;
+    animation-name: desplazarse;
+    animation-duration: 5s;
+    @keyframes desplazarse {
+        from {
+            position: relative;
+            left: 100%;
+        }
+        to {
+            left: 0%;
+        }
+    }
+    .descarga{
+        animation-name: desplazarse;
+        animation-duration: 3s;
+    }
+    .formulario {
+        padding: 20px;
+        align-self: center;
+        border: 2px solid $colorPrimarioFormulario;
+        margin: 5px;
+        text-align: center;
+    }
+    .articulos {
+        padding: 20px;
+        align-self: center;
+        border: 2px solid $colorPrimarioFormulario;
+        margin: 5px;
+        text-align: center;
+    }
+    .contenido {
+        padding: 20px;
+        align-self: center;
+        border: 2px solid $colorPrimarioFormulario;
+        margin: 5px;
+        text-align: center;
+    }
+    .textos {
+        text-decoration: underline;
+    }
+    .boton {
+        margin: 5px;
+        border-radius: 5px;
+        border: solid;
+        color: $colorSecundarioFormuario;
+        box-shadow: 2px 4px 10px 5px;
+        &:hover{
+            color: #9b0f16;
+        }
+    } 
+}
