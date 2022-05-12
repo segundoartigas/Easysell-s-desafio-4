@@ -1,0 +1,6 @@
+@mixin PropiedadPrincipal ($bg-color, $color, $ancho, $alto) {
+    background-color: $bg-color;
+    color: $color;
+    width: $ancho;
+    height: $alto;
+}

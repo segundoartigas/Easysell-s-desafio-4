@@ -1,0 +1,14 @@
+.button {
+    margin: map-get($button, margin );
+    border-radius: map-get($button , border-radius );
+    border: map-get($button , border );
+    &:hover{
+        background-color: blue;
+    }
+    
+}
+.button-primario{
+    @extend .button;
+    @include PropiedadPrincipal(red ,yellow ,auto ,auto );
+}
+
