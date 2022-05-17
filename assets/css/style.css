@@ -129,7 +129,8 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25px; }
+  padding: 25px;
+  box-shadow: 5px 5px 5px 5px rgb(24, 23, 23); }
   .navbar .ul {
     list-style: none;
     display: inline-block;
@@ -145,7 +146,7 @@
       left: 0;
       bottom: -12px;
       transition: 0, 4s ease-out; }
-      .navbar .ul:before:hover::before {
+      .navbar .ul:hover::before {
         width: 100%; }
   .navbar .li {
     list-style: none;
@@ -157,7 +158,7 @@
     text-decoration: none;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;   }
 
 .publicidad h1 {
   text-align: center;
@@ -231,7 +232,9 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 200px;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
 
 .header {
   grid-area: header;
@@ -250,7 +253,9 @@ body {
   .grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 200px;
-    grid-template-areas: "header" "header" "main" "main"  "footer"  "footer";
+    grid-template-areas: "header" "header"
+ "main" "main" 
+ "footer"  "footer";
     display: flex;
     flex-direction: column; }
   .contenedor {
@@ -289,3 +294,19 @@ h1 {
 
 .descarga {
   box-shadow: 10px 10px 10px 10px rgba(128, 56, 211, 0.267); }
+.row-tarjet{
+    width: 40%;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 5px;
+    color: #000000;
+    padding: 15px;
+    border: solid 3px blue;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.row-tarjet:hover{
+  background: rgb(121, 107, 89);
+}
+.container{
+  background-color: rgba(211, 97, 56, 0.267);
+}
