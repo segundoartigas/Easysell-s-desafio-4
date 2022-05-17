@@ -1,0 +1,13 @@
+.row-tarjet{
+    width: 40%;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 5px;
+    color: #000000;
+    padding: 15px;
+    border: solid 3px blue;
+    transition-property: all;
+    transition-duration: 1s;
+    &:hover{
+            background: rgb(121, 107, 89);
+        }
+    }

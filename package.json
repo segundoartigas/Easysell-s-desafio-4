@@ -1,0 +1,26 @@
+{
+  "name": "easysells-desafio9",
+  "version": "1.0.0",
+  "description": "Proyecto de compra y venta hecho para poder mejorar las ventas y ademas poder vender tus cosas de manera sencilla y rapida",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segundoartigas/Easysell-s-desafio-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segundoartigas/Easysell-s-desafio-4/issues"
+  },
+  "homepage": "https://github.com/segundoartigas/Easysell-s-desafio-4#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

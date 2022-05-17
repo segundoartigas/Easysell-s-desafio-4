@@ -1,0 +1,19 @@
+.publicidad h1 {
+    text-align: center;
+    font-size: x-large;
+}
+.publicidad{
+    width: 100%;
+    background-image: url(../imgenes/imagen-compra.jpg); opacity: 10;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .h1{
+        text-align: center;
+        font-size: x-large;
+    }
+}

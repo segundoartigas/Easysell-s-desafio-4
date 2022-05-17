@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg" style="background-color: white;">
         <div class="container-fluid">
             <a href="#" class="logo">
                 <img src="../assets/imgenes/logo.png">
@@ -48,62 +48,58 @@
           </div>
         </div>
       </nav>
-        <header>
-            <h1 class="titulo">Easy Sell's</h1>
-        </header>
-        <div class="flex-container">
-            <p class="textos">Ingrese su informacion de contacto:</p>
-            <div class="formulario">
-                <form action="formulario" method="get">
-                    <label for="nombre">Ingrese su nombre:</label>
-                    <input type="text" placeholder="Escriba aqui..." name="nombre"><br><br>
-                    <label for="apellido" >Ingrese su apellido:</label>
-                    <input type="text" placeholder="Escriba aqui..." name="apellido"><br><br>
-                    <label for="fecha-de-nacimiento">Ingrese su fecha de nacimiento:</label>
-                    <input type="date" placeholder="Escriba aqui..." name="fecha-de-nacimiento"><br><br>
-                    <label for="mail-de-contacto">Ingrese su mail de contacto:</label>
-                   <input type="email" placeholder="Escriba aqui..." name="mail-de-contacto">
-               </form>
-           </div>
-           <p class="textos">Ingrese sus preferencias:</p>
-            <div class="articulos">
-                <form action="formulario" method="get">
-                    <label for="nombre">Tecnologia y electronica</label>
-                    <input type="text" placeholder="Ej: samsung galaxy" name="nombre"><br><br>
-                    <label for="apellido" >Inmuebles:</label>
-                    <input type="text" placeholder="Ej: casa" name="apellido"><br><br>
-                    <label for="fecha-de-nacimiento">Productos:</label>
-                    <input type="text" placeholder="Ej: escobas" name="fecha-de-nacimiento"><br><br>
-                    <label for="mail-de-contacto">Vehiculos:</label>
-                   <input type="text" placeholder="Ej: bmw" name="mail-de-contacto"><br><br>
-                   <label for="mail-de-contacto">Otro:</label>
-                   <input type="text" placeholder="Escriba aqui..." name="mail-de-contacto">
-               </form>
+      <header>
+        <h1 class="titulo">Easy Sell's</h1>
+      </header>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post">
+                        <fieldset>
+                            <legend class="text-center header">Contactanos</legend>
+    
+                            <div class="form-group">
+                                <i class="fa fa-user bigicon"></i>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                </div>
+                            </div>
+    
+                    
+    
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Numero de celular" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Escriba su comentario y dudas acerca de la pagina.." rows="7"></textarea>
+                                </div>
+                            </div>
+                            </div>
+    
+                            <div class="celes form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
-            <p class="textos">Ingrese como nos conociste:</p>
-           <div class="contenido">
-               <form action="formulario" method="get">
-                    <br>
-                    <label for="red">Facebook</label>
-                    <input type="checkbox" name="caja">
-                    <br><br>
-                    <label for="red">Instagram</label>
-                    <input type="checkbox" name="caja">
-                    <br><br>
-                    <label for="red">Twitter</label>
-                    <input type="checkbox" name="caja">
-                    <br><br>
-                    <label for="red">Youtube</label>
-                    <input type="checkbox" name="caja">
-                    <br><br>
-                    <label for="red">Otro</label>
-                    <input type="text" name="texto">
-                    <br><br>
-                    <button class="boton">Enviar formulario</button><button class="boton">Borrar formulario</button>
-               </form>
-           </div>
         </div>
     </div>
+
     <footer class="pie-de-pagina">
         <div class="grupo-1">
             <div class="box">

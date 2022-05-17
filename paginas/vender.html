@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar navbar-expand-lg" style="background-color: white;">
         <div class="container-fluid">
             <a href="#" class="logo">
                 <img src="../assets/imgenes/logo.png">
@@ -46,6 +46,60 @@
           </div>
         </div>
       </nav>
+      <div class="row col-xs-12 col-md-12">
+        <h1>-Queres vender-</h1>
+      </div>
+     
+      <div class="flex-container row col-xs-12 col-md-8">
+        <div class="formulario row col-xs-12 col-md-12">
+            <form action="formulario" method="get">
+                <label for="nombre">Nombre del producto:</label>
+                <input type="text" placeholder="Escriba aqui..." name="nombre"><br><br>
+                <label for="apellido" >Detalles del producto:</label>
+                <input type="text" placeholder="Escriba aqui..." name="nombre"><br><br>
+                <label for="nombre">Cargar imagenes:</label>
+                <input type="file" name="imagen">
+           </form>
+       </div>
+        <div class="articulos">
+            <form action="formulario" method="get">
+              <div class="col-xs-12 col-md-12">
+                <label for="nombre">Precio</label>
+              <input type="number" autocomplete="transaction-amount" placeholder="$">
+              </div><br>
+              <div class="col-xs-12 col-md-12">
+                <label for="nombre">Descripcion del producto:</label><br><br>
+              <p><textarea name="comentario" rows="9" cols="30">Escribi tu descripcion..</textarea></p>
+              </div>
+              <p class="venta col-xs-12 col-md-12 ">Condicion:</p>
+      <div class="entrega">
+        <form action="condicion" method="get">
+          <label for="nombre">Nuevo</label>
+          <input type="checkbox" name="check">
+          <label for="nombre">Usado</label>
+          <input type="checkbox" name="check">
+        </form>
+      </div>
+           </form>
+        </div>
+        <p class="textos">Para finalizar elegi una opcion de envio:</p>
+       <div class="contenido">
+           <form action="formulario" method="get">
+            <p class="venta">Forma de entrega:</p>
+            <div class="entrega col-xs-12 col-md-12">
+                <label for="nombre col-md-4">A acordar con el vendedor</label>
+                <input type="checkbox" name="check">
+                <label for="nombre col-md-4">Envios easysell's</label>
+                <input type="checkbox" name="check">
+                <label for="nombre col-md-4">Correo argentino</label>
+                <input type="checkbox" name="check">
+                <div class="bb">
+                  <button class="boton">Publicar producto</button>
+                </div>
+           </form>
+       </div>
+      </div>
+      </div>
     <footer class="pie-de-pagina">
         <div class="grupo-1">
             <div class="box">
